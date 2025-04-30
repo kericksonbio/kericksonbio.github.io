@@ -1,2 +1,2 @@
 # kericksonbio.github.io
-Personal website
+View my website at https://kericksonbio.github.io/
