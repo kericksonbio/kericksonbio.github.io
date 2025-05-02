@@ -5,32 +5,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<style>
-body {font-family: "Times New Roman", Georgia, Serif;}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display";
-  display: block;
-}
-</style>
+<link href="styles.css" rel="stylesheet">
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:2px;">
+    <a href="index.html" class="w3-bar-item w3-button navbutton">Katie Erickson</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="research.html" class="w3-bar-item w3-button">Research</a>
-      <a href="art.html" class="w3-bar-item w3-button">Art</a>
-      <a href="outreach.html" class="w3-bar-item w3-button">Outreach</a>
+      <a href="research.html" class="w3-bar-item w3-button navbutton">Research</a>
+      <a href="art.html" class="w3-bar-item w3-button navbutton">Art</a>
+      <a href="outreach.html" class="w3-bar-item w3-button navbutton">Outreach</a>
     </div>
   </div>
 </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="web_images/blakes_landing_landscape.jpg" alt="Landscpae Photograph of Blake's Landing" width="1600" height="800">
+  <img class="w3-image" src="web_images/blakes_landing_banner.jpg" alt="Landscpae Photograph of Blake's Landing" width="1600" height="800">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
     <h1 class="w3-xxlarge"></h1>
   </div>
@@ -38,35 +32,72 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Page content -->
 <div class="w3-content" style="max-width:1100px">
-  <hr>
   <!-- Research Section -->
   <div class="w3-row w3-padding-64" id="dissertation">
     <div class="w3-col w3-padding-large">
-      <h1 class="w3-center">Research Interests</h1><br>
-      <h4><img src="web_images/blakes_landing_field_team.jpeg" alt="Field Team Selfie" style="float:right;width:300px;">
-        Local adaptation and structural variation in <i>Zostera marina</i> </h4>
+      <h1 class="w3-center">Research Projects</h1><br>
+      <h4><img class="project_image" src="web_images/blakes_landing_field_team.jpeg" alt="Field Team Selfie">
+        The Impact of Structural Variation on Local Adaptation and Parallel Evolution in <i>Zostera marina</i> </h4>
       <p class="w3-text-grey">
-         My dissertation research is focused on how a large chromosomal inversion impacts the processes
-        of local adaptation and parallel evolution in California eelgrass.  
+        With my dissertation research, I aim to contribute to our understanding of how genomic structural variation contributes to 
+        eco-evolutionary processes. In particular, I am working to understand how a large chromosomal inversion in eelgrass impacts
+        how eelgrass populations adapt to their local environmental conditions. Through field collections, tank experiements and multuple forms of 
+        sequencing, I aim to indentify the function of the inversion and uncover how it contributes to local adaptation. 
+        I will also compare how the inversion impacts the level of parallelism across California bays that share similar environmental gradients. 
       </p>
-      <br>
-
-
-
-    <div>
-      <h4>Urban adaptation in <i>Battus philenor</i></h4>
-      <p class="w3-text-grey">In a collaborative project supported by the UC Davis Center for Population Biology, 
-        I am studying how the cosmopolitan butterfly Pipevine Swallowtail adapts to urban environments across its California range. </p><br>
-    </div>
-
-      <h4>Biogeography and Taxonomy of Octocorals</h4>
-      <p class="w3-text-grey">I worked in the lab of Cathy McFadden at Harvey Mudd College during my undergraduate and as a laboratory technician.
-        I applied genetic and genomic tools to map the biogeography of octocorals and understand the taxonmy of this underdescribed clade.
-      </p><br>
-      
-    
     </div>
   </div>
+
+  <div class="w3-row w3-padding-64" id="SEED">
+    <div class="w3-col w3-padding-large">
+      <h4><img class="project_image" src="web_images/battus_caterpillars.jpg" alt="Pipevine swallowtail caterpillars on a leaf">
+      <h4>Urban adaptation in <i>Battus philenor</i></h4>
+      <p class="w3-text-grey">In a collaborative project between myself, James Michelini and Natasha Dhamrait, 
+        I am studying how a cosmopolitan butterfly, Pipevine Swallowtail, adapts to urban environments across its California range.
+         </p><br>
+    </div>
+  </div>
+
+
+  <div class="w3-row w3-padding-64" id="dissertation">
+    <div class="w3-col w3-padding-large">
+      <h4><img class="project_image" src="web_images/lab_notebooks.JPG" alt="Picture of Katie holding many lab notebooks">
+      <h4>Biogeography and Taxonomy of Octocorals</h4>
+      <p class="w3-text-grey">I worked in the lab of Cathy McFadden at Harvey Mudd College during my 
+        undergraduate, through summer research internships and for my senior thesis, as well as
+        after I graudated, as a laboratory technician.
+        I applied genetic and genomic tools to map the biogeography of octocorals and understand the 
+        taxonomy of this underdescribed clade.
+      <p class="w3-text-grey">The following publications have resulted from this work:</p>  
+        
+      <p class="citation"> Catherine S. McFadden, <strong>Katie L. Erickson</strong> ... Yuha Benayahu (2025).
+        <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13241" target="_blank">
+          Biodiversity and biogeography of zooxanthellate soft corals across the Indo-Pacific.</a>
+          <i>Scientific Reports</i>.
+      </p>
+
+      <p class="citation"> Matthew P. Galaska, Guangpeng Li, Destiny West, <strong>Katie L. Erickson</strong>, 
+        Andrea M. Quattrini, Annalisa Bracco and Santiago Herrera (2021).
+        <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13241" target="_blank">
+          Seascape Genomics Reveals Metapopulation Connectivity Network of <i>Paramuricea biscaya</i> in the Northern Gulf of Mexico.</a>
+          <i>Frontiers in Marine Science</i>.
+      </p>
+
+      <p class="citation"> <strong>Katie L. Erickson</strong>, Alicia Pentico, Andrea M. Quattrini and Catherine S. McFadden (2020).
+        <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13241" target="_blank">
+          New approaches to species delimitation and population structure of anthozoans: Two case studies of octocorals 
+          using ultraconserved elements and exons.</a>
+          <i>Molecular Ecology Resources.</i>
+      </p>
+
+      </div>
+  </div>
+  </div>
+
+</div>
+</body>
+
+
 
   <hr>
   

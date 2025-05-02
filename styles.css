@@ -1,0 +1,43 @@
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Optima", sans-serif;
+  display: block;
+  color:rgb(55, 69, 115)
+}
+
+.eval {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(74, 72, 72);
+}
+.course {
+  text-align: right;
+  margin-right: 40px;
+  color: rgb(74, 72, 72);
+}
+.block_quote {
+  text-align: center;
+  font-size: 150%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.citation { 
+  margin-left: 40px;
+  color: rgb(72, 72, 74);
+}
+.project_image {
+  float: right;
+  width: 300px;
+  padding: 15px;
+}
+
+.navbutton {
+ color:rgb(55, 69, 115);
+ font-family: "Optima", sans-serif;
+ font-size: 120%;
+ font-weight: 120;
+}

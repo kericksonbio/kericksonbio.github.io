@@ -5,32 +5,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
-<style>
-body {font-family: "Times New Roman", Georgia, Serif;}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display";
-  display: block;
-}
-</style>
+<link href="styles.css" rel="stylesheet">
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="index.html" class="w3-bar-item w3-button">Katie Erickson</a>
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:2px;">
+    <a href="index.html" class="w3-bar-item w3-button navbutton">Katie Erickson</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="research.html" class="w3-bar-item w3-button">Research</a>
-      <a href="art.html" class="w3-bar-item w3-button">Art</a>
-      <a href="outreach.html" class="w3-bar-item w3-button">Outreach</a>
+      <a href="research.html" class="w3-bar-item w3-button navbutton">Research</a>
+      <a href="art.html" class="w3-bar-item w3-button navbutton" >Art</a>
+      <a href="outreach.html" class="w3-bar-item w3-button navbutton" >Outreach</a>
     </div>
   </div>
 </div>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="web_images/blakes_landing_landscape.jpg" alt="Landscpae Photograph of Blake's Landing" width="1600" height="800">
+  <img class="w3-image" src="web_images/blakes_landing_banner.jpg" alt="Landscpae Photograph of Blake's Landing" width="1600" height="800">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
     <h1 class="w3-xxlarge"></h1>
   </div>
@@ -40,20 +34,21 @@ h1, h2, h3, h4, h5, h6 {
 <div class="w3-content" style="max-width:1100px">
     <div class="w3-row w3-padding-64">
         <div class="w3-col w3-padding-large">
-          <h1 class="w3-center">Outreach</h1><br>
+          <p class="block_quote"> "To teach in a manner that respects and cares for the souls of our students is essential if we are to provide 
+            the necessary conditions where learning can most deeply and intimately begin."<br>
+          -bell hooks</p>
+          <hr>
           <h3> Teaching Evaluations </h3>
-          <h5> "Katie is an exemplary TA. 
+          <p class="eval"> "Katie is an exemplary TA. 
             Discussion, where a lot of students aren't interested in being there, is so incredibly hard to teach and command a room and Katie did that. 
             If I was confused about a homework problem, I knew that going to discussion would clear it up. 
             It seems like they had the perfect words that would help me understand the harder concepts of evolution. 
             She was also incredibly generous and kind when students would have difficulty. 
-            They are everything you want in a TA, and the university is so lucky to have them."</h5>
-            <br>
-          <h5 class="w3-right w3-text-grey"> from EVE100 (Evolution), Fall 2023</h5>
+            They are everything you want in a TA, and the university is so lucky to have them."</p>
+          <p class="course"> Undergraduate student from EVE100 (Evolution), Fall 2023</p>
           <br>
-          <h5> "Super helpful, explains patiently, and is super smart. Hire her."</h5>
-          <br>
-          <h5 class="w3-right w3-text-grey"> from BIS02B (Intro to Biology), Fall 2024</h5>
+          <p class="eval"> "Super helpful, explains patiently, and is super smart. Hire her."</p>
+          <p class="course"> Undergraduate student from BIS02B (Intro to Biology), Fall 2024</p>
           <br>
       </div>
     </div>
